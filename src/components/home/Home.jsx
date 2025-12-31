@@ -2,7 +2,7 @@ import React from "react";
 import "../home/home.css";
 import Me from '../../assets/me.png';
 import CV from '../../assets/cv.pdf';
-import HomeSocial from "./HomeSocial";
+import HomeSocial from "../home/HomeSocial";
 
 function Home() {
   return (
@@ -21,7 +21,7 @@ function Home() {
           </a>
         </div>
         <div className="me">
-        <img src={Me} alt="" />
+        <img src={Me} alt="Retag Saad" />
         </div>
         <a href="#about" className="scroll_down">Scroll Down</a>
         <HomeSocial/>
