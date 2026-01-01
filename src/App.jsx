@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Home></Home>
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar> */}
       <About></About>
       <Skills></Skills>
       <Project></Project>

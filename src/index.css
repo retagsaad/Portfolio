@@ -66,11 +66,22 @@ a:hover{
   background: var(--color-primary);
   color: var(--color-bg);
 }
-img{
+.me img{
   display: block;
   width: 100%;
   object-fit: cover;
 }
+
+.header h4{
+  text-align: center;
+  color: var(--color-primary);
+  /* margin-bottom: 3rem; */
+}
+.header h2{
+   text-align: center;
+  color: var(--color-light);
+}
+
 /* media quries tablet */
 @media(max-width:1024px){
   .container{
@@ -88,5 +99,8 @@ img{
   }
   section{
     padding-top: 6rem;
+  }
+  .header h4{
+    margin-bottom: 2rem;
   }
 }
