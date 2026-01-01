@@ -29,7 +29,7 @@
 .scroll_down {
   position: absolute;
   right: -35px;
-  bottom: 30px;
+  bottom: 80px;
   transform: rotate(90deg);
   font-weight: 100;
 }
@@ -42,12 +42,12 @@
   gap: 0.8rem;
   align-items: center;
 }
-.home_social::after {
+/* .home_social::after {
   content: "";
   width: 1px;
   height: 2rem;
   background: var(--color-primary);
-}
+} */
 .home_social a {
   font-size: 25px;
 }

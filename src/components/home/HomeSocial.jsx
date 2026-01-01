@@ -4,9 +4,9 @@ import { FaGithub } from "react-icons/fa";
 
 function HomeSocial() {
   return (
-    <div className='home_socials'>
-        <a href="#" target="_blank"><FaLinkedin/></a>
-        <a href="#" target="_blank"><FaGithub /></a>
+    <div className='home_social'>
+        <a href="https://www.linkedin.com/in/retag-saad-85a190384/" target="_blank"><FaLinkedin/></a>
+        <a href="https://github.com/retagsaad" target="_blank"><FaGithub /></a>
 
     </div>
   )
