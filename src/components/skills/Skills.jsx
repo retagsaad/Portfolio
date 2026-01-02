@@ -1,14 +1,17 @@
 import React from "react";
 import "../skills/skills.css";
+import CSS from "../../assets/css3.svg"
 function Skills() {
   return (
-    <div className="skills-container">
+    <div className="skiils">
       <div className="header">
         <h4>What Skills I Have</h4>
         <h2>My Experience</h2>
-        <div className="cards">
-          <div className="card">
-            <div className="logo"></div>
+        <div className="skills-container container">
+          <div className="card-skill">
+            <div className="logo">
+              <img src={CSS} alt="" />
+            </div>
             <h3>Css</h3>
             <p>User interface</p>
             <div className="logo"></div>
