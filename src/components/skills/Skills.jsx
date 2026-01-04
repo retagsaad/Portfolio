@@ -10,7 +10,7 @@ function Skills() {
         <div className="skills-container container">
           <div className="card-skill">
             <div className="logo">
-              <img src={CSS} alt="" />
+              <img src={CSS} alt="CSS" />
             </div>
             <h3>Css</h3>
             <p>User interface</p>
