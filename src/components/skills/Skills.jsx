@@ -1,6 +1,8 @@
 import React from "react";
 import "../skills/skills.css";
 import CSS from "../../assets/css3.svg"
+import Javascript from "../../assets/javascript.svg"
+
 function Skills() {
   return (
     <div className="skiils">
@@ -19,7 +21,9 @@ function Skills() {
             <p>Framework</p>
           </div>
           <div className="card">
-            <div className="logo"></div>
+            <div className="logo">
+              <img src={Javascript} alt="javascript" />
+            </div>
             <h3>JavaScript</h3>
             <p>Interaction</p>
             <div className="logo"></div>
