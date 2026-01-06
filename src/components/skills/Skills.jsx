@@ -1,7 +1,12 @@
-import React from "react";
 import "../skills/skills.css";
 import CSS from "../../assets/css3.svg"
 import Javascript from "../../assets/javascript.svg"
+import Bootstrap from "../../assets/Bootstrap.png"
+import React from "../../assets/React.svg"
+import Git from "../../assets/Git.png"
+import GitHub from "../../assets/Github.png"
+
+
 
 function Skills() {
   return (
@@ -15,27 +20,35 @@ function Skills() {
               <img src={CSS} alt="CSS" />
             </div>
             <h3>Css</h3>
-            <p>User interface</p>
-            <div className="logo"></div>
+            <p className="text-light">User interface</p>
+            <div className="logo">
+              <img src={Bootstrap} alt="CSS" />
+            </div>
             <h3>Bootstrab</h3>
-            <p>Framework</p>
+            <p className="text-light">Framework</p>
           </div>
           <div className="card">
             <div className="logo">
-              <img src={Javascript} alt="javascript" />
+              <img src={Javascript} alt="javascript" /> 
             </div>
             <h3>JavaScript</h3>
-            <p>Interaction</p>
-            <div className="logo"></div>
+            <p className="text-light">Interaction</p>
+            <div className="logo">
+              <img src={React} alt="" />
+            </div>
             <h3>React</h3>
-            <p>Framework</p>
+            <p className="text-light">Framework</p>
           </div>
-          <div className="logo"></div>
+          <div className="logo">
+            <img src={Git} alt="" />
+          </div>
           <h3>Git</h3>
-          <p>Version Control System</p>
-          <div className="logo"></div>
+          <p className="text-light">Version Control System</p>
+          <div className="logo">
+            <img src={GitHub} alt="" />
+          </div>
           <h3>GitHub</h3>
-          <p>Online Code Repository</p>
+          <p className="text-light">Online Code Repository</p>
         </div>
       </div>
     </div>
