@@ -1,0 +1,13 @@
+.skills-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.skills-container .card-skill{
+    width: 24%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid var(--color-bg-variant);
+}
