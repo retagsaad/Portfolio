@@ -52,7 +52,7 @@ function Skills() {
               <img src={image} alt={title} />
             </div>
             <div className="content">
-            <h3>{title}</h3>
+            <h4>{title}</h4>
             <p className="text-light">{disc}</p>
             </div>
           </div> 
