@@ -24,3 +24,14 @@ margin: 22px 0 35px;
     gap: 20px;
     margin-bottom: 15px;
 }
+/* responsive */
+@media (max-width:1024px){
+.projects-container .item{
+    width: 48%;
+}
+}
+@media (max-width:600px){
+    .projects-container .item{
+    width: 100%;
+}
+}
