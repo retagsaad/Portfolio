@@ -4,7 +4,7 @@ import IMG1 from "../../assets/portfolio1.jpg"
 import IMG2 from "../../assets/portfolio2.jpg"
 import IMG3 from "../../assets/portfolio3.jpg"
 import IMG4 from "../../assets/portfolio4.jpg"
-import IMG5 from "../../assets/portfolio5.jpg"
+// import IMG5 from "../../assets/portfolio5.jpg"
 import IMG6 from "../../assets/portfolio6.jpg"
 
 function Project() {
@@ -39,7 +39,7 @@ function Project() {
     },
       {
       id:5,
-      image:IMG5,
+      // image:IMG5,
       title:"ITEM 5",
       github:'https://github.com',
       demo:'https://demo.com',
@@ -59,6 +59,7 @@ function Project() {
         <h2></h2>
       </div>
       <div className="container projects-container"> 
+       {projectsData.map(({id,image,title,github,demo})=>(
         <div className='item'>
           <div className="img">
             <img src={image} alt={title} />
@@ -69,6 +70,8 @@ function Project() {
           <a href={demo} className="btn-primary btn">Live Demo</a>
           </div>
         </div>
+       ))}
+        
       </div>
     </div>
   )
