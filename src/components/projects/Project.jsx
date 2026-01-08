@@ -4,7 +4,7 @@ import IMG1 from "../../assets/portfolio1.jpg"
 import IMG2 from "../../assets/portfolio2.jpg"
 import IMG3 from "../../assets/portfolio3.jpg"
 import IMG4 from "../../assets/portfolio4.jpg"
-// import IMG5 from "../../assets/portfolio5.jpg"
+import IMG5 from "../../assets/portfolio5.PNG"
 import IMG6 from "../../assets/portfolio6.jpg"
 
 function Project() {
@@ -39,7 +39,7 @@ function Project() {
     },
       {
       id:5,
-      // image:IMG5,
+      image:IMG5,
       title:"ITEM 5",
       github:'https://github.com',
       demo:'https://demo.com',
@@ -56,18 +56,18 @@ function Project() {
     <div className='projects'>
       <div className='header'>
         <h4>My Recent Work</h4>
-        <h2></h2>
+        <h2>Projects</h2>
       </div>
       <div className="container projects-container"> 
        {projectsData.map(({id,image,title,github,demo})=>(
-        <div className='item'>
-          <div className="img">
+        <div key={id} className='item'>
+          <div className="item-img">
             <img src={image} alt={title} />
           </div>
           <h3>{title}</h3>
-          <div className="btns">
-          <a href={github} className="btn">GitHub</a>
-          <a href={demo} className="btn-primary btn">Live Demo</a>
+          <div className="item-btns">
+          <a href={github} target='_blank' className="btn">GitHub</a>
+          <a href={demo} target='_blank' className="btn-primary btn">Live Demo</a>
           </div>
         </div>
        ))}

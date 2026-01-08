@@ -1,0 +1,26 @@
+.projects-container{
+    display: flex;
+    justify-content:space-between ;
+    flex-wrap: wrap;
+}
+.projects-container .item{
+    width: 31%;
+    margin-bottom: 50px;
+    background: var(--color-bg-variant);
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.item-img{
+    border-radius: 15px;
+    overflow: hidden;
+}
+.item-img h3{
+margin: 22px 0 35px;
+}
+.item-btns{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+}

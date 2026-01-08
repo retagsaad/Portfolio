@@ -47,7 +47,7 @@ function Skills() {
         <h2>My Experience</h2>
         <div className="skills-container container">
           {SkillsData.map(({id , image , title , disc}) =>(
-            <div className="card-skill">
+            <div key={id}className="card-skill">
             <div className="logo">
               <img src={image} alt={title} />
             </div>
