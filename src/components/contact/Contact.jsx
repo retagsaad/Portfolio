@@ -1,8 +1,17 @@
-import React from 'react'
 import "./contact.css"
 import { MdOutlineEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+  const form = useRef();
+   const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_bw8ea8h', 'template_jbs5x77', form.current, '34F__WzeVlEpmB7qk',
+      )
+  };
 const contactData=[
   {
     id:1,
@@ -46,10 +55,10 @@ function Contact() {
     
 
       </div>
-      <div className="form">
+      <div className="form" onSubmit={sendEmail} ref={form}>
         <input type="text" placeholder='Your Full Name' name='name'/>
         <input type="text" placeholder='Your Email' name='email'/>
-        <textarea rows={10} type="text" placeholder='Your Message'/>
+        <textarea name='message' rows={10} type="text" placeholder='Your Message'/>
       </div>
       <a href="" className="btn-primary btn">Send Message</a>
     </div>
