@@ -6,7 +6,7 @@ import HomeSocial from "../home/HomeSocial";
 
 function Home() {
   return (
-    <div className="home">
+    <div className="home" id="home">
       <div className="container home_container">
         
         <h4>Hello I'm</h4>

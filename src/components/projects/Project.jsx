@@ -53,7 +53,7 @@ function Project() {
     },
   ]
   return (
-    <div className='projects'>
+    <div className='projects' id='projects'>
       <div className='header'>
         <h4>My Recent Work</h4>
         <h2>Projects</h2>

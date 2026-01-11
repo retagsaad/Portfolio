@@ -41,7 +41,7 @@ const SkillsData =[
 
 function Skills() {
   return (
-    <div className="skiils">
+    <div className="skiils"id="skills">
       <div className="header">
         <h4>What Skills I Have</h4>
         <h2>My Experience</h2>

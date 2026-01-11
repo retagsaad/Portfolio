@@ -12,9 +12,10 @@ function App() {
   return (
     <>
       <Home></Home>
-      {/* <Navbar></Navbar> */}
+      <Navbar></Navbar>
       <About></About>
       <Skills></Skills>
+      <Service></Service>
       <Project></Project>
       <Contact></Contact>
       <Footer></Footer>

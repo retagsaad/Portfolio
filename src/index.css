@@ -23,6 +23,9 @@ body{
   line-height: 1.7;
   background-image: url(assets/bg-texture.png);
 }
+html{
+  scroll-behavior: smooth;
+}
 .container{
   width: 80%;
   margin: 0 auto;
