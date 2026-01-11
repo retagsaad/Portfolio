@@ -2,16 +2,9 @@ import "./contact.css"
 import { MdOutlineEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-  const form = useRef();
-   const sendEmail = (e) => {
-    e.preventDefault();
 
-    emailjs
-      .sendForm('service_bw8ea8h', 'template_jbs5x77', form.current, '34F__WzeVlEpmB7qk',
-      )
-  };
 const contactData=[
   {
     id:1,
@@ -20,14 +13,14 @@ const contactData=[
     info:"retagsaad77@gmail.com",
     link:"mailto:retagsaad77@gmail.com",
   },
-   {
+  {
     id:2,
     icon:<FaLinkedin/>,
     title:"Linkedin",
     info:"retag-saad77",
     link:"https://www.linkedin.com/in/retag-saad77/",
   },
-   {
+  {
     id:3,
     icon:<FaGithub/>,
     title:"Github",
@@ -36,6 +29,15 @@ const contactData=[
   },
 ]
 function Contact() {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+    .sendForm('service_50orjwf', 'template_jbs5x77', form.current, '34F__WzeVlEpmB7qk',
+    )
+    e.target.reset();
+  };
+
   return (
     <div className='contact'>
       <div className='header'>
@@ -55,12 +57,12 @@ function Contact() {
     
 
       </div>
-      <div className="form" onSubmit={sendEmail} ref={form}>
+      <form className="form" onSubmit={sendEmail} ref={form}>
         <input type="text" placeholder='Your Full Name' name='name'/>
         <input type="text" placeholder='Your Email' name='email'/>
         <textarea name='message' rows={10} type="text" placeholder='Your Message'/>
-      </div>
-      <a href="" className="btn-primary btn">Send Message</a>
+      <button  className="btn btn-primary">Send Message</button>
+      </form>
     </div>
     </div>
   )
