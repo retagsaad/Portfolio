@@ -10,6 +10,7 @@ const icons = [
     id: 1,
     icon: <IoHomeOutline />,
     href:"#home",
+    classname :"active",
   },
   {
     id: 2,
@@ -34,13 +35,13 @@ const icons = [
 ];
 function Navbar() {
   return (
-    <nav>
-      {icons.map(({ id, icon ,href}) => {
-        <div key={id} className="icons-container container">
-          <a href={href}>{icon}</a>
-        </div>;
-      })}
-    </nav>
+    <div className="nav">
+      {icons.map(({ id, classname, icon ,href}) => (
+        <div key={id}>
+          <a className={classname} href={href}>{icon}</a>
+        </div>
+      ))}
+    </div >
   );
 }
 
