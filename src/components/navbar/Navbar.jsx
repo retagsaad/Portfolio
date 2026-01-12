@@ -5,6 +5,7 @@ import { LuUserRound } from "react-icons/lu";
 import { BiBook } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { BiMessageSquareDetail } from "react-icons/bi";
+import { useState } from "react";
 const icons = [
   {
     id: 1,
@@ -16,29 +17,38 @@ const icons = [
     id: 2,
     icon: <LuUserRound />,
     href:"#about",
+    classname :"#about",
+
   },
   {
     id: 3,
     icon: <BiBook />,
     href:"#projects",
+    classname :"#projects",
+
   },
   {
     id: 4,
     icon: <RiServiceLine />,
     href:"#service",
+    classname :"#service",
+
   },
   {
     id: 5,
     icon: <BiMessageSquareDetail />,
     href:"#contact",
+    classname :"#contact",
+
   },
 ];
 function Navbar() {
+  const [active,setActive]=useState("")
   return (
     <div className="nav">
       {icons.map(({ id, classname, icon ,href}) => (
         <div key={id}>
-          <a className={classname} href={href}>{icon}</a>
+          <a onClick={()=>setActive({classname})} className={active === "#" ? "active" :""} href={href}>{icon}</a>
         </div>
       ))}
     </div >
