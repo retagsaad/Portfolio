@@ -27,3 +27,17 @@
 .container-service p{
     font-size: 14px;
 }
+/* responsive */
+@media (max-width:1024px) {
+    .container-service .card{
+        width: 48%;
+        margin-bottom: 40px;
+    }
+
+}
+@media (max-width:600px) {
+    .container-service .card{
+        width: 100%;
+    }
+    
+}
