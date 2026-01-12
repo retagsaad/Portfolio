@@ -43,12 +43,12 @@ const icons = [
   },
 ];
 function Navbar() {
-  const [active,setActive]=useState("")
+  const [active,setActive]=useState("#")
   return (
     <div className="nav">
       {icons.map(({ id, classname, icon ,href}) => (
         <div key={id}>
-          <a onClick={()=>setActive({classname})} className={active === "#" ? "active" :""} href={href}>{icon}</a>
+          <a onClick={()=>setActive({classname})} className={active === classname ? "active" :""} href={href}>{icon}</a>
         </div>
       ))}
     </div >
