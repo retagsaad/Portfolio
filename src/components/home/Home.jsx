@@ -16,7 +16,7 @@ function Home() {
           <a href={CV} className="btn" download>
             Download Cv
           </a>
-          <a href="#" className="btn btn-primary">
+          <a href="#contact" className="btn btn-primary">
             Let's Talk
           </a>
         </div>
