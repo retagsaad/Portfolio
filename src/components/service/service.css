@@ -1,0 +1,29 @@
+.container-service{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container-service .card{
+    width: 31%;
+    padding: 50px 40px;
+    background: var(--color-bg-variant);
+    border-radius: 1rem;
+    transition: var(--transition);
+    border: 1px solid transparent;
+}
+.container-service .card:hover{
+    background: transparent;
+    border-color: var(--color-primary);
+}
+.container-service .icon{
+    font-size: 70px;
+    margin-bottom: 20px;
+    color: var(--color-primary);
+}
+.container-service h3{
+    margin-bottom: 30px;
+}
+.container-service p{
+    font-size: 14px;
+}
