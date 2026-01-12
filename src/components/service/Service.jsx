@@ -34,9 +34,9 @@ function Service() {
       <div className="container container-service">
         {servicesData.map(({id,icon,title,text})=>(
           <div key={id} className="card">
-        <div>{icon}</div>
+        <div className='icon'>{icon}</div>
         <h3>{title}</h3>
-        <p>{text}</p>
+        <p className='text-light'>{text}</p>
       </div>
         ))}
       
