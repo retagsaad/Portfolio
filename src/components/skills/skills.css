@@ -5,7 +5,7 @@
     flex-wrap: wrap;
 }
 .skills-container .card-skill{
-    width: 24%;
+    width: 26%;
     display: flex;
     align-items: center;
     gap: 10px;
