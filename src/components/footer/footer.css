@@ -20,6 +20,12 @@
     gap: 30px;
     margin: 0 auto 30px;
 }
+.footer a{
+    color: var(--color-bg);
+}
+.footer a:hover{
+    color: var(--color-white);
+}
 .social{
     display: flex;
     justify-content: center;
@@ -40,7 +46,10 @@
     border-color: var(--color-bg);
     color: var(--color-bg);
 }
-.footer-links{
+/* responsive */
+@media (max-width:600px) {
+   .footer-links{
     flex-direction: column;
     gap: 20px;
+} 
 }
