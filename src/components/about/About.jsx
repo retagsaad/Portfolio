@@ -23,17 +23,17 @@ function About() {
             <div className="about-card">
               <FaAward className="about-icon" />
               <h4>Experience</h4>
-              <h6>++years</h6>
+              <h6>+++years</h6>
             </div>
             <div className="about-card">
               <FiUsers className="about-icon" />
               <h4>Clients</h4>
-              <h6>+++</h6>
+              <h6>+++Clients</h6>
             </div>
             <div className="about-card">
               <VscFolderLibrary className="about-icon" />
               <h4>Projects</h4>
-              <h6>+++</h6>
+              <h6>+++Projects</h6>
             </div>
           </div>
         
