@@ -43,8 +43,8 @@ function Skills() {
   return (
     <div className="skiils"id="skills">
       <div className="header">
-        <h4>What Skills I Have</h4>
-        <h2>My Experience</h2>
+        <h5>What Skills I Have</h5>
+        <h3>My Experience</h3>
         <div className="skills-container container">
           {SkillsData.map(({id , image , title , disc}) =>(
             <div key={id}className="card-skill">

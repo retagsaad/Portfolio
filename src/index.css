@@ -88,6 +88,17 @@ a:hover{
   color: var(--color-light);
 }
 
+.header h3{
+    text-align: center;
+  color: var(--color-primary);
+  font-size: 25px;
+}
+.header h5{
+   text-align: center;
+  color: var(--color-light);
+  font-size: 15px;
+
+}
 /* media quries tablet */
 @media(max-width:1024px){
   .container{

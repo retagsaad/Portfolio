@@ -55,8 +55,8 @@ function Project() {
   return (
     <div className='projects' id='projects'>
       <div className='header'>
-        <h4>My Recent Work</h4>
-        <h2>Projects</h2>
+        <h5>My Recent Work</h5>
+        <h3>Projects</h3>
       </div>
       <div className="container projects-container"> 
        {projectsData.map(({id,image,title,github,demo})=>(

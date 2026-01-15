@@ -28,8 +28,8 @@ function Service() {
   return (
     <div id='service' className='service'>
       <div className='header'>
-    <h4>What I Offer</h4>
-    <h2>Services</h2>
+    <h5>What I Offer</h5>
+    <h3>Services</h3>
       </div>
       <div className="container container-service">
         {servicesData.map(({id,icon,title,text})=>(

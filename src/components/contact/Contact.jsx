@@ -41,8 +41,8 @@ function Contact() {
   return (
     <div className='contact' id="contact">
       <div className='header'>
-        <h4>Get In Touch</h4>
-        <h2>Contact Me</h2>
+        <h5>Get In Touch</h5>
+        <h3>Contact Me</h3>
       </div>
       <div className='container contact-container'>
       <div className='contact-options'>
