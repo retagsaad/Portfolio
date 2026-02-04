@@ -1,20 +1,20 @@
 import React from 'react'
 import '../projects/project.css'
-import IMG1 from "../../assets/portfolio1.jpg"
 import IMG2 from "../../assets/portfolio2.jpg"
 import IMG3 from "../../assets/portfolio3.jpg"
 import IMG4 from "../../assets/portfolio4.jpg"
 import IMG5 from "../../assets/portfolio5.PNG"
 import IMG6 from "../../assets/portfolio6.jpg"
+import logo from '../../assets/logo.svg'
 
 function Project() {
   const projectsData =[
     {
       id:1,
-      image:IMG1,
-      title:"ITEM 1",
-      github:'https://github.com',
-      demo:'https://demo.com',
+      image:logo,
+      title:"Agency AI",
+      github:'https://github.com/retagsaad/agency.ai',
+      demo:'https://agency-ai-rtg.netlify.app/',
     },
       {
       id:2,
