@@ -1,56 +1,43 @@
 import React from 'react'
 import '../projects/project.css'
-import IMG2 from "../../assets/portfolio2.jpg"
-import IMG3 from "../../assets/portfolio3.jpg"
-import IMG4 from "../../assets/portfolio4.jpg"
+import codeflow from "../../assets/codeflow.png"
+import dashboard from "../../assets/dashboard.png"
+import movieapp from "../../assets/movieapp.png"
 import IMG5 from "../../assets/portfolio5.PNG"
 import IMG6 from "../../assets/portfolio6.jpg"
-import logo from '../../assets/logo.svg'
+import agencyai from '../../assets/agencyai.png'
 
 function Project() {
   const projectsData =[
     {
       id:1,
-      image:logo,
+      image:agencyai,
       title:"Agency AI",
       github:'https://github.com/retagsaad/agency.ai',
       demo:'https://agency-ai-rtg.netlify.app/',
     },
       {
       id:2,
-      image:IMG2,
-      title:"ITEM 2",
-      github:'https://github.com',
-      demo:'https://demo.com',
+      image:codeflow,
+      title:"Code Flow",
+      github:'https://github.com/retagsaad/code-flow',
+      demo:'https://codeflowbyrtg.netlify.app/',
     },
       {
       id:3,
-      image:IMG3,
-      title:"ITEM 3",
-      github:'https://github.com',
-      demo:'https://demo.com',
+      image:dashboard,
+      title:"Admin Dashboard",
+      github:'https://github.com/retagsaad/Admin-Dashboard',
+      demo:'https://admin-dashboard-rtg.netlify.app/',
     },
       {
       id:4,
-      image:IMG4,
-      title:"ITEM 4",
+      image:movieapp,
+      title:"Movie App",
       github:'https://github.com',
-      demo:'https://demo.com',
+      demo:'https://movieappbyrtg.netlify.app/',
     },
-      {
-      id:5,
-      image:IMG5,
-      title:"ITEM 5",
-      github:'https://github.com',
-      demo:'https://demo.com',
-    },
-      {
-      id:6,
-      image:IMG6,
-      title:"ITEM 6",
-      github:'https://github.com',
-      demo:'https://demo.com',
-    },
+     
   ]
   return (
     <div className='projects' id='projects'>

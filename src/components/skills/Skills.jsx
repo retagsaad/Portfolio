@@ -4,7 +4,7 @@ import Javascript from "../../assets/javascript.svg"
 import Bootstrap from "../../assets/Bootstrap.png"
 import React from "../../assets/React.svg"
 import Git from "../../assets/Git.png"
-import GitHub from "../../assets/Github.png"
+import Tailwind from "../../assets/tailwind.png"
 
 const SkillsData =[
   {id:1,
@@ -33,9 +33,10 @@ const SkillsData =[
     disc: "Version Control System",
   },
     {id:6,
-    image:GitHub,
-    title:'GitHub',
-    disc: "Online Code Repository",
+    image:Tailwind,
+    title:'TailwindCSS',
+    disc: "Framework",
+    
   },
 ]
 
