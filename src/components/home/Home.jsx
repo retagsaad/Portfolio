@@ -1,6 +1,5 @@
 import React from "react";
 import "../home/home.css";
-import Me from '../../assets/me.png';
 import HomeSocial from "../home/HomeSocial";
 
 function Home() {
@@ -19,9 +18,9 @@ function Home() {
             Let's Talk
           </a>
         </div>
-        <div className="me">
-        <img src={Me} alt="Retag Saad" />
-        </div>
+        {/* <div className="me">
+        <img src='' alt="Retag Saad" />
+        </div> */}
         <a href="#about" className="scroll_down">Scroll Down</a>
         <HomeSocial/>
       </div>

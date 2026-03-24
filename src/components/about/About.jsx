@@ -1,6 +1,5 @@
 import React from "react";
 import "./about.css";
-import Me from "../../assets/me.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -13,11 +12,11 @@ function About() {
         <h2>About Me</h2>
       </div>
       <div className="about-container container">
-        <div className="about-me">
+        {/* <div className="about-me">
           <div className="about-me-img">
           <img src={Me} alt="Retag Saad" />
           </div>
-        </div>
+        </div> */}
         <div className="about-content">
           <div className="about-cards">
             <div className="about-card">
@@ -36,10 +35,22 @@ function About() {
               <h6>+++Projects</h6>
             </div>
           </div>
-        
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nihil nesciunt minus laborum. Eum vero nisi voluptatum eos, error ullam repellendus laboriosam, doloribus tempora unde corrupti deserunt distinctio, qui facere?</p>
-      <a href="#contact"className="btn btn-primary">Let's Talk</a>
-      </div>
+
+          <p>
+            Passionate Front-End Developer specializing in building modern,
+            responsive, and user-friendly web applications using React. I am
+            currently a Software Industry and Multimedia student at the Faculty
+            of Science, Alexandria University, with a strong foundation in
+            front-end technologies including HTML, CSS, JavaScript, React, and
+            Tailwind CSS. I am deeply passionate about the tech field and always
+            eager to learn new tools and technologies. I enjoy turning ideas
+            into real, interactive experiences and continuously strive to
+            improve my skills.
+          </p>
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
+        </div>
       </div>
     </div>
   );
