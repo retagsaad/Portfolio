@@ -29,7 +29,7 @@ const SkillsData =[
   },
     {id:5,
     image:Git,
-    title:'Git',
+    title:'Git & GitHub',
     disc: "Version Control System",
   },
     {id:6,
