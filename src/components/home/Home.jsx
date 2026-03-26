@@ -1,6 +1,7 @@
 import React from "react";
 import "../home/home.css";
 import HomeSocial from "../home/HomeSocial";
+import CV from '../../assets/Retag_Saad_CV.pdf'
 
 function Home() {
   return (
@@ -11,7 +12,7 @@ function Home() {
         <h1>Retag Saad</h1>
         <h4 className="text-light">Frontend Developer</h4>
         <div className="btns">
-          <a href='#' className="btn" download>
+          <a href={CV} className="btn" download>
             Download Cv
           </a>
           <a href="#contact" className="btn btn-primary">
