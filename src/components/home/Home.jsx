@@ -1,13 +1,12 @@
 import React from "react";
 import "../home/home.css";
 import HomeSocial from "../home/HomeSocial";
-import CV from '../../assets/Retag_Saad_CV.pdf'
+import CV from "../../assets/Retag_Saad_CV.pdf";
 
 function Home() {
   return (
     <div className="home" id="home">
       <div className="container home_container">
-        
         <h4>Hello I'm</h4>
         <h1>Retag Saad</h1>
         <h4 className="text-light">Frontend Developer</h4>
@@ -19,11 +18,11 @@ function Home() {
             Let's Talk
           </a>
         </div>
-        {/* <div className="me">
-        <img src='' alt="Retag Saad" />
-        </div> */}
-        <a href="#about" className="scroll_down">Scroll Down</a>
-        <HomeSocial/>
+
+        <a href="#about" className="scroll_down">
+          Scroll Down
+        </a>
+        <HomeSocial />
       </div>
     </div>
   );
