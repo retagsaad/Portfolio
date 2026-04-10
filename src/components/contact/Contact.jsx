@@ -10,7 +10,7 @@ const contactData=[
     id:1,
     icon:<MdOutlineEmail />,
     title:"Email",
-    info:"retagsaad77@gmail.com",
+    info:"retagsaad999@gmail.com",
     link:"mailto:retagsaad77@gmail.com",
   },
   {
