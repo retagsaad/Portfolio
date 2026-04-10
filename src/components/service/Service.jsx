@@ -9,19 +9,19 @@ const servicesData =[
     id:1,
     icon:<LiaPencilRulerSolid />,
     title:'Web Design',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A maiores reprehenderit laudantium ab cumque illo!',
+    text: 'modern, responsive, and user-friendly website designs that provide a smooth and engaging user experience.',
   },
   {
     id:2,
     icon:<IoIosRocket />,
     title:'Fast Performance',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A maiores reprehenderit laudantium ab cumque illo!',
+    text: 'websites optimized for speed and performance to ensure fast loading times and better user satisfaction.',
   },
   {
     id:3,
     icon:<FaCode />,
     title:'Clean Code',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A maiores reprehenderit laudantium ab cumque illo!',
+    text: 'clean, maintainable, and well-structured code following best practices for scalability and readability.',
   }
 ]
 function Service() {
