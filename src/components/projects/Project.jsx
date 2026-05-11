@@ -6,7 +6,7 @@ import movieapp from "../../assets/movieapp.png";
 import IMG5 from "../../assets/portfolio5.PNG";
 import IMG6 from "../../assets/portfolio6.jpg";
 import agencyai from "../../assets/agencyai.png";
-
+import learnly from '../../assets/learnly.png'
 function Project() {
   const projectsData = [
     {
@@ -25,13 +25,20 @@ function Project() {
     },
     {
       id: 3,
+      image: learnly,
+      title: "Learnly",
+      github: "https://github.com/retagsaad/e-learning",
+      demo: "https://e-learnly.netlify.app/",
+    },
+    {
+      id: 4,
       image: dashboard,
       title: "Admin Dashboard",
       github: "https://github.com/retagsaad/Admin-Dashboard",
       demo: "https://admin-dashboard-rtg.netlify.app/",
     },
     {
-      id: 4,
+      id: 5,
       image: movieapp,
       title: "Movie App",
       github: "https://github.com",
