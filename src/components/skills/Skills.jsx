@@ -9,12 +9,13 @@ import next from '../../assets/next.png'
 
 const SkillsData = [
   { id: 1, image: CSS, title: "Css", disc: "User interface" },
-  { id: 2, image: Bootstrap, title: "Bootstrap", disc: "Framework" },
-  { id: 3, image: Javascript, title: "Javascript", disc: "Interaction" },
-  { id: 4, image: React, title: "React", disc: "Framework" },
-  { id: 5, image: next, title: "Next", disc: "Framework" },
-  { id: 6, image: Tailwind, title: "TailwindCSS", disc: "Framework" },
-  { id: 7, image: Git, title: "Git & GitHub", disc: "Version Control System" },
+  { id: 2, image: typescript, title: "TypeScript", disc: "Interaction" },
+  { id: 3, image: Bootstrap, title: "Bootstrap", disc: "Framework" },
+  { id: 4, image: Javascript, title: "Javascript", disc: "Interaction" },
+  { id: 5, image: React, title: "React", disc: "Framework" },
+  { id: 6, image: next, title: "Next", disc: "Framework" },
+  { id: 7, image: Tailwind, title: "TailwindCSS", disc: "Framework" },
+  { id: 8, image: Git, title: "Git & GitHub", disc: "Version Control System" },
 ];
 
 function Skills() {
