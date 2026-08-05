@@ -2,10 +2,10 @@ import "../skills/skills.css";
 import CSS from "../../assets/css3.svg";
 import Javascript from "../../assets/javascript.svg";
 import Bootstrap from "../../assets/Bootstrap.png";
-import React from "../../assets/React.svg";
+import React from "../../assets/react.svg";
 import Git from "../../assets/Git.png";
 import Tailwind from "../../assets/tailwind.png";
-import next from '../../assets/next.png'
+import next from "../../assets/next.png";
 
 const SkillsData = [
   { id: 1, image: CSS, title: "Css", disc: "User interface" },
