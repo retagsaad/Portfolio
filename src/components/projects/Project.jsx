@@ -3,7 +3,7 @@ import "../projects/project.css";
 import codeflow from "../../assets/codeflow.png";
 import dashboard from "../../assets/dashboard.png";
 import movieapp from "../../assets/movieapp.png";
-import IMG5 from "../../assets/portfolio5.PNG";
+import IMG5 from "../../assets/portfolio5.png";
 import IMG6 from "../../assets/portfolio6.jpg";
 import agencyai from "../../assets/agencyai.png";
 import learnly from '../../assets/learnly.png'
