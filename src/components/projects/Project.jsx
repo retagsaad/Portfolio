@@ -7,12 +7,12 @@ import agencyai from "../../assets/agencyai.png";
 import learnly from '../../assets/learnly.png'
 function Project() {
   const projectsData = [
-    {
+     {
       id: 1,
       image: agencyai,
       title: "Agency AI",
       github: "https://github.com/retagsaad/agency.ai",
-      demo: "https://agency-ai-rtg.netlify.app/",
+      demo: "https://agency-ai-retag5.vercel.app/",
     },
     {
       id: 2,
@@ -26,21 +26,21 @@ function Project() {
       image: learnly,
       title: "Learnly",
       github: "https://github.com/retagsaad/e-learning",
-      demo: "https://e-learnly.netlify.app/",
+      demo: "https://e-learning-ashy-three.vercel.app/",
     },
     {
       id: 4,
       image: dashboard,
       title: "Admin Dashboard",
       github: "https://github.com/retagsaad/Admin-Dashboard",
-      demo: "https://admin-dashboard-rtg.netlify.app/",
+      demo: "https://admin-dashboard-self-xi-99.vercel.app/",
     },
     {
       id: 5,
       image: movieapp,
       title: "Movie App",
-      github: "https://github.com",
-      demo: "https://movieappbyrtg.netlify.app/",
+      github: "https://github.com/retagsaad/Movie-App",
+      demo: "https://movie-app-retag5.vercel.app/",
     },
   ];
   return (
