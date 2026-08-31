@@ -9,7 +9,7 @@ import next from "../../assets/next.png";
 
 const SkillsData = [
   { id: 1, image: CSS, title: "Css", disc: "User interface" },
-  { id: 2, image: typescript, title: "TypeScript", disc: "Interaction" },
+  { id: 2,  title: "TypeScript", disc: "Interaction" },
   { id: 3, image: Bootstrap, title: "Bootstrap", disc: "Framework" },
   { id: 4, image: Javascript, title: "Javascript", disc: "Interaction" },
   { id: 5, image: React, title: "React", disc: "Framework" },
@@ -28,7 +28,7 @@ function Skills() {
           {SkillsData.map(({ id, image, title, disc }) => (
             <div key={id} className="card-skill">
               <div className="logo">
-                <img src={image} alt={title} />
+                <img src={image}  />
               </div>
               <div className="content">
                 <h4>{title}</h4>
