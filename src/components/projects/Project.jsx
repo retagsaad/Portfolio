@@ -19,7 +19,7 @@ function Project() {
       image: codeflow,
       title: "Code Flow",
       github: "https://github.com/retagsaad/code-flow",
-      demo: "https://codeflowbyrtg.netlify.app/",
+      demo: "https://code-flow-beryl.vercel.app/",
     },
     {
       id: 3,
